@@ -80,7 +80,7 @@
       "loser": "player2"
     },
     {
-      "player1": "Ka Pl\u00ed\u0161kov\u00e1",
+      "player1": "K Pl\u00ed\u0161kov\u00e1",
       "player2": "K Bertens",
       "score": [
         [
@@ -392,6 +392,26 @@
       "loser": "player2"
     },
     {
+      "player1": "S Halep",
+      "player2": "A Kerber",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          9,
+          7
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
       "player1": "G Muguruza",
       "player2": "M Sharapova",
       "score": [
@@ -513,7 +533,7 @@
     },
     {
       "player1": "A Barty",
-      "player2": "Ka Pl\u00ed\u0161kov\u00e1",
+      "player2": "K Pl\u00ed\u0161kov\u00e1",
       "score": [
         [
           4,
@@ -637,7 +657,7 @@
     },
     {
       "player1": "S Williams",
-      "player2": "Ka Pl\u00ed\u0161kov\u00e1",
+      "player2": "K Pl\u00ed\u0161kov\u00e1",
       "score": [
         [
           6,
@@ -765,7 +785,7 @@
     },
     {
       "player1": "B Str\u00fdcov\u00e1",
-      "player2": "Ka Pl\u00ed\u0161kov\u00e1",
+      "player2": "K Pl\u00ed\u0161kov\u00e1",
       "score": [
         [
           7,
@@ -889,7 +909,7 @@
     },
     {
       "player1": "S Halep",
-      "player2": "Ka Pl\u00ed\u0161kov\u00e1",
+      "player2": "K Pl\u00ed\u0161kov\u00e1",
       "score": [
         [
           6,
@@ -954,26 +974,6 @@
       ],
       "winner": "player2",
       "loser": "player1"
-    },
-    {
-      "player1": "S Halep",
-      "player2": "A Kerber",
-      "score": [
-        [
-          6,
-          3
-        ],
-        [
-          4,
-          6
-        ],
-        [
-          9,
-          7
-        ]
-      ],
-      "winner": "player1",
-      "loser": "player2"
     },
     {
       "player1": "E Mertens",
