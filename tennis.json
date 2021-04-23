@@ -1,0 +1,1015 @@
+{
+  "example": {
+    "player1": "name",
+    "player2": "name",
+    "score": [
+      [
+        6,
+        9
+      ]
+    ],
+    "pycharm's formatting is really weird but ok": 0
+  },
+  "games": [
+    {
+      "player1": "S-w Hsieh",
+      "player2": "D Cibulkov\u00e1",
+      "score": [
+        [
+          4,
+          6
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "J Ostapenko",
+      "player2": "A Sasnovich",
+      "score": [
+        [
+          7,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "A Van Uytvanck",
+      "player2": "D Kasatkina",
+      "score": [
+        [
+          7,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "A Kerber",
+      "player2": "B Bencic",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          7,
+          6
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "Ka Pl\u00ed\u0161kov\u00e1",
+      "player2": "K Bertens",
+      "score": [
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "J G\u00f6rges",
+      "player2": "D Veki\u0107",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "S Williams",
+      "player2": "E Rodina",
+      "score": [
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "C Giorgi",
+      "player2": "E Makarova",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "D Cibulkov\u00e1",
+      "player2": "J Ostapenko",
+      "score": [
+        [
+          5,
+          7
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "D Kasatkina",
+      "player2": "A Kerber",
+      "score": [
+        [
+          3,
+          6
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "K Bertens",
+      "player2": "J G\u00f6rges",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          1,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S Williams",
+      "player2": "C Giorgi",
+      "score": [
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "J Ostapenko",
+      "player2": "A Kerber",
+      "score": [
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "J G\u00f6rges",
+      "player2": "S Williams",
+      "score": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "A Kerber",
+      "player2": "S Williams",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "S Halep",
+      "player2": "E Mertens",
+      "score": [
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "A Kerber",
+      "player2": "C Garcia",
+      "score": [
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "G Muguruza",
+      "player2": "L Tsurenko",
+      "score": [
+        [
+          2,
+          0
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "B Str\u00fdcov\u00e1",
+      "player2": "Y Putintseva",
+      "score": [
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "M Keys",
+      "player2": "M Buz\u0103rnescu",
+      "score": [
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "A Kontaveit",
+      "player2": "S Stephens",
+      "score": [
+        [
+          2,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "D Kasatkina",
+      "player2": "C Wozniacki",
+      "score": [
+        [
+          7,
+          6
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "S Halep",
+      "player2": "A Kerber",
+      "score": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "G Muguruza",
+      "player2": "M Sharapova",
+      "score": [
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "Y Putintseva",
+      "player2": "M Keys",
+      "score": [
+        [
+          6,
+          7
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S Stephens",
+      "player2": "D Kasatkina",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "S Halep",
+      "player2": "G Muguruza",
+      "score": [
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          4
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "M Keys",
+      "player2": "S Stephens",
+      "score": [
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S Halep",
+      "player2": "S Stephens",
+      "score": [
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "K Kanepi",
+      "player2": "S Williams",
+      "score": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "A Barty",
+      "player2": "Ka Pl\u00ed\u0161kov\u00e1",
+      "score": [
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S Stephens",
+      "player2": "E Mertens",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "A Sevastova",
+      "player2": "E Svitolina",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "C Su\u00e1rez Navarro",
+      "player2": "M Sharapova",
+      "score": [
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "M Keys",
+      "player2": "D Cibulkov\u00e1",
+      "score": [
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "A Sabalenka",
+      "player2": "N Osaka",
+      "score": [
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "M Vondrou\u0161ov\u00e1",
+      "player2": "L Tsurenko",
+      "score": [
+        [
+          7,
+          6
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S Williams",
+      "player2": "Ka Pl\u00ed\u0161kov\u00e1",
+      "score": [
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          3
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "S Stephens",
+      "player2": "A Sevastova",
+      "score": [
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "C Su\u00e1rez Navarro",
+      "player2": "M Keys",
+      "score": [
+        [
+          4,
+          6
+        ],
+        [
+          3,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "N Osaka",
+      "player2": "L Tsurenko",
+      "score": [
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          1
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "S Williams",
+      "player2": "A Sevastova",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "M Keys",
+      "player2": "N Osaka",
+      "score": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S Williams",
+      "player2": "N Osaka",
+      "score": [
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S Halep",
+      "player2": "N Osaka",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "B Str\u00fdcov\u00e1",
+      "player2": "Ka Pl\u00ed\u0161kov\u00e1",
+      "score": [
+        [
+          7,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S-w Hsieh",
+      "player2": "A Kerber",
+      "score": [
+        [
+          6,
+          4
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "M Keys",
+      "player2": "C Garcia",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "P Marti\u0107",
+      "player2": "E Mertens",
+      "score": [
+        [
+          6,
+          7
+        ],
+        [
+          5,
+          7
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "D Allertov\u00e1",
+      "player2": "E Svitolina",
+      "score": [
+        [
+          3,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "A Kontaveit",
+      "player2": "C Su\u00e1rez Navarro",
+      "score": [
+        [
+          6,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          8
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "M Ryb\u00e1rikov\u00e1",
+      "player2": "C Wozniacki",
+      "score": [
+        [
+          3,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S Halep",
+      "player2": "Ka Pl\u00ed\u0161kov\u00e1",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "A Kerber",
+      "player2": "M Keys",
+      "score": [
+        [
+          6,
+          1
+        ],
+        [
+          6,
+          2
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "E Mertens",
+      "player2": "E Svitolina",
+      "score": [
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "C Su\u00e1rez Navarro",
+      "player2": "C Wozniacki",
+      "score": [
+        [
+          0,
+          6
+        ],
+        [
+          7,
+          6
+        ],
+        [
+          2,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S Halep",
+      "player2": "A Kerber",
+      "score": [
+        [
+          6,
+          3
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          9,
+          7
+        ]
+      ],
+      "winner": "player1",
+      "loser": "player2"
+    },
+    {
+      "player1": "E Mertens",
+      "player2": "C Wozniacki",
+      "score": [
+        [
+          3,
+          6
+        ],
+        [
+          6,
+          7
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    },
+    {
+      "player1": "S Halep",
+      "player2": "C Wozniacki",
+      "score": [
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          3
+        ],
+        [
+          4,
+          6
+        ]
+      ],
+      "winner": "player2",
+      "loser": "player1"
+    }
+  ]
+}
