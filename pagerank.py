@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import json
 import networkx as nx
+import fluke_detection
+
 
 with open("tennis.json", "r") as f:
     data = json.load(f)
@@ -74,12 +76,14 @@ def simple_pagerank_iteration(g, p=0.85):
             sum_outbound_weights += g[edge[0]][edge[1]]['weight']
         current_score = g.nodes[node]['score']
 
-        if num_successors == 0:  # dangling node, redistribute score to all players
+        if num_successors == 0 or sum_outbound_weights == 0:  # dangling node, redistribute score to all players
             baseline_score += p * (current_score / N)
         else:
+
             for successor in g.successors(node):  # transfer score to successors
                 # add score to successor nodes
-                successor_gain = g.nodes[node]['transfer_multiplier'] * p * current_score * (g[node][successor]['weight'] / sum_outbound_weights)
+                successor_gain = g.nodes[node]['transfer_multiplier'] * p * current_score * \
+                                 (g[node][successor]['weight'] / sum_outbound_weights)
                 g.nodes[successor]['new_score'] += successor_gain
 
     for node in g.nodes:  # add baseline score + assign new_score to scores
@@ -95,7 +99,12 @@ iters = 100
 for i in range(iters):
     simple_pagerank_iteration(g, p=0.50)
 
-# visualize
+# fluke detection
+fluke_detection.detect_and_adjust_flukes(g)
+
+# recompute
+for i in range(iters):
+    simple_pagerank_iteration(g, p=0.50)
 
 spring = nx.spring_layout(g, k=1.2)
 shell = nx.shell_layout(g)
@@ -122,11 +131,4 @@ plt.show()
 
 # save graph
 #nx.write_gpickle(g, "binary_pagerank_050.gpickle")
-
-
-class Node(object):
-    def __init__(self, name='aaa'):
-        self.name = 'aaa'
-
-s = Node(name="S Halep")
 
