@@ -47,8 +47,8 @@ for month in dataset:
                 diff = 0
             dom_ratings[name] += pow(diff, k)
 
-# ------------- Display results --------------------
 
+# ------------- Display results --------------------
 print("There are", len(dom_ratings), "unique players")
 
 # Bar chart with matplotlib
