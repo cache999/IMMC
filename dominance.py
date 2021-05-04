@@ -4,7 +4,7 @@ from collections import defaultdict
 import matplotlib.pyplot as plt
 
 # ------------- Changeable parameters --------------
-# top n players' median are taken, i.e. the 5.5-th rating is the median
+# top n players' median are taken, i.e. for n=10 the 5.5-th rating is the median
 n = 10
 # power of the integrand
 k = 2
@@ -13,12 +13,15 @@ k = 2
 time_step = 1
 
 
-# ------------- Main program -----------------------
+# ------------- Importing data ---------------------
 # Imports data from /chessmetrics_data_parsed
 dataset = []
 basepath = "chessmetrics_data_parsed/"
 for entry in os.listdir(basepath):
     dataset.append(basepath + entry)
+
+
+# ------------- Calculate integral -----------------
 
 # Initialize variables
 dom_ratings = defaultdict(float)
@@ -63,3 +66,4 @@ plt.tick_params(axis='x', labelsize=5)  # Set the x-axis label size
 
 plt.bar(*pairs)
 plt.show()
+fig.savefig('temp.png', dpi=fig.dpi)  # Saves figure to same directory
