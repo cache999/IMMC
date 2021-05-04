@@ -8,17 +8,38 @@ import matplotlib.pyplot as plt
 n = 10
 # power of the integrand
 k = 2
+# Bounds of the integral, written [year][month]
+lower_lim = "195001"
+upper_lim = "202105"
 
 # In units of months; 1 is the smallest. Currently useless
 time_step = 1
 
 
+# ---------- Determine integration mode ------------
+# Checks bounds of integration to select correct integration mode
+# NOTE: May not need this, if we already do all the changes in the data processing.
+def check_integration_mode(lower, upper):
+    divide_years = False
+    return
+
 # ------------- Importing data ---------------------
-# Imports data from /chessmetrics_data_parsed
+# Imports data from /final_ratings
 dataset = []
-basepath = "chessmetrics_data_parsed/"
+basepath = "final_ratings/"
 for entry in os.listdir(basepath):
     dataset.append(basepath + entry)
+
+# Filter the data based on bounds
+lower_index = dataset.index(basepath + lower_lim + '.csv')
+upper_index = dataset.index(basepath + upper_lim + '.csv')
+if lower_index != -1:
+    dataset = dataset[lower_index:]
+if upper_index != -1:
+    if upper_index == len(dataset) - 1:  # last element:
+        dataset = dataset[:-1]
+    else:
+        dataset = dataset[:upper_index]
 
 
 # ------------- Calculate integral -----------------
@@ -30,6 +51,7 @@ current_pass = 0
 medians = [n//2 - 1, n//2] if n % 2 == 0 else [n//2, n//2]
 
 # Calculate the integral
+# Assumes all the files listed in dataset are incremented monthly
 for month in dataset:
     # Calculates the ratings for every player that is in the dataset
     with open(month, mode="r", encoding="utf-8") as csvfile:
@@ -45,7 +67,7 @@ for month in dataset:
         # Calculates ratings for every player
         for row in rows:
             name = row[0]
-            diff = int(row[1]) - median_val
+            diff = float(row[1]) - median_val
             if diff < 0:
                 diff = 0
             dom_ratings[name] += pow(diff, k)
