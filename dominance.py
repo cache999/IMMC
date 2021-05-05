@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # top n players' median are taken, i.e. for n=10 the 5.5-th rating is the median
 n = 10
 # power of the integrand
-k = 10
+k = 5
 # Bounds of the integral, written [year][month]. Leave blank to integrate over all the data
 lower_lim = "184301"
 upper_lim = "202105"
@@ -76,8 +76,10 @@ def use_month_filter(month_year):
             reader = csv.reader(csvfile, delimiter=',')
             row_count = sum(1 for row in reader)
             row_count = row_count - 2  # Remove header and adjust for zero-indexed median value
-            if row_count < medians[1]:
+            if row_count < n:  # filter by whether it has n players
                 return False
+            #if row_count < medians[1]:  # filter by whether it contains median
+            #    return False
         return True
 
 # Calculate the integral
