@@ -65,8 +65,8 @@ def get_data(url):
 def convert_time(month_year):
     return month_year[1] + MONTHS_DICT[month_year[0]]
 
-for url in urls:
-    get_data(url)
+#for url in urls:
+#    get_data(url)
 
 
 # ---------------- Interpolation ------------------
